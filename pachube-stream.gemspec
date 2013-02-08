@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency "eventmachine", ">= 1.0.0.beta.3"
   s.add_dependency "addressable", ">= 2.2.3"
   s.add_dependency "hashie", ">= 0.5.1"
-  s.add_dependency 'yajl-ruby', '~> 0.8.2'
+  s.add_dependency 'yajl-ruby', '>= 0.8.2'
   s.add_dependency 'uuid', '~> 2.3.2'
 
   s.files         = `git ls-files`.split("\n")
